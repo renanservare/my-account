@@ -24,7 +24,7 @@ const AppRouter = () => {
   )
 
   // eslint-disable-next-line
-  const shouldRedirectOrder = vtex && vtex.orderListRendered
+  const shouldRedirectOrder = window && window.vtex && window.vtex.orderListRendered
 
   return (
     <div className="w-100 mw9 pv7-m pv9-l flex">
