@@ -1,34 +1,23 @@
 {
   "my-account": {
     "blocks": [
-      "routes",
-      "defaultRoute",
-      "menu",
-      "menu-links-before",
-      "menu-links-after"
+      "my-account-pages",
+      "my-account-defaultPage",
+      "my-account-menu"
     ]
   },
-  "legacy.my-account-portal": {
-    "blocks": [
-      "routes",
-      "defaultRoute",
-      "menu",
-      "menu-links-before",
-      "menu-links-after"
-    ]
-  },
-  "routes": {
+  "my-account-pages": {
     "blocks": [
       "my-orders",
-      "my-subscriptions",
       "my-cards"
     ]
   },
-  "menu-links-after": {
+  "my-account-menu": {
     "blocks": [
+      "my-profile-link",
+      "my-addresses-link",
       "my-orders-link",
-      "my-cards-link",
-      "my-subscriptions-link"
+      "my-cards-link"
     ]
   }
 }
