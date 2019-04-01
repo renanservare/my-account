@@ -4,11 +4,9 @@
     "required": [
       "my-account-pages",
       "my-account-defaultPage",
-      "my-account-menu"
-    ],
-    "allowed": [
-      "profile-display",
-      "profile-input"
+      "my-account-menu",
+      "profile-display-container",
+      "profile-input-container"
     ]
   },
   "my-account-defaultPage": {
@@ -44,10 +42,22 @@
   "my-profile-link": {
     "component": "MyProfileLink"
   },
+  "profile-display-container": {
+    "component": "vtex.render-runtime/ExtensionContainer",
+    "allowed": [
+      "profile-display"
+    ]
+  },
   "profile-display": {
-    "component": "vtex.render-runtime/ExtensionContainer"
+    "component": "*"
+  },
+  "profile-input-container": {
+    "component": "vtex.render-runtime/ExtensionContainer",
+    "allowed": [
+      "profile-input"
+    ]
   },
   "profile-input": {
-    "component": "vtex.render-runtime/ExtensionContainer"
+    "component": "*"
   }
 }

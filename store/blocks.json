@@ -3,7 +3,9 @@
     "blocks": [
       "my-account-pages",
       "my-account-defaultPage",
-      "my-account-menu"
+      "my-account-menu",
+      "profile-display-container",
+      "profile-input-container"
     ]
   },
   "my-account-pages": {
