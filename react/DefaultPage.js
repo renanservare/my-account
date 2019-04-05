@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { Link, withRouter } from 'vtex.my-account-commons/Router'
 
 class DefaultPage extends Component {
   componentDidMount() {

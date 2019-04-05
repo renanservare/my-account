@@ -24,7 +24,6 @@
     "component": "*"
   },
   "my-account-menu": {
-    "component": "vtex.render-runtime/LayoutContainer",
     "allowed": [
       "my-profile-link",
       "my-addresses-link",
@@ -43,7 +42,7 @@
     "component": "MyProfileLink"
   },
   "profile-display-container": {
-    "component": "vtex.render-runtime/ExtensionContainer",
+    "component": "vtex.render-runtime/LayoutContainer",
     "allowed": [
       "profile-display"
     ]
@@ -52,7 +51,7 @@
     "component": "*"
   },
   "profile-input-container": {
-    "component": "vtex.render-runtime/ExtensionContainer",
+    "component": "vtex.render-runtime/LayoutContainer",
     "allowed": [
       "profile-input"
     ]
